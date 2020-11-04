@@ -1,1 +1,346 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T03:27:49.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="13.8.8" etag="xRxj_xlNVOmpRGEjCit0" type="github"><diagram id="0aKmNabqWZX9mq11FxcS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-04T05:14:54.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="_5-0Dps7vwu9yexjmp3P" version="13.8.9-1" type="github">
+  <diagram id="0aKmNabqWZX9mq11FxcS" name="Página-1">
+    <mxGraphModel dx="1550" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-1" value="&lt;h2 style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Ejercicio 4. Estación de servicio.&lt;/font&gt;&lt;/h2&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Una estación de servicio cuenta con tres surtidores con sus respectivos empleados (uno por surtidor) y dos cobradores (los empleados de los surtidores no pueden cobrar).Cuando los autos llegan, forman fila en cualquiera de los surtidores. Una vez que se terminó de cargar combustible al auto, se libera el surtidor y se pasa al sector de pago. En este sector cualquiera de los cobradores le cobra al conductor del auto. Si no hay cobradores libres, debe esperar a que uno se libere. Cuando el cobrador termina, el auto se retira de la estación y el cobrador queda libre para atender a un nuevo auto.&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="134" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-2" target="rXtuRV8UVFUfXsze2wkC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="240" as="sourcePoint" />
+            <mxPoint x="447.5" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-5" value="Llega un auto a la fila 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="330" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-6" value="Auto esperando en la fila 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="335" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-3" target="rXtuRV8UVFUfXsze2wkC-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="390" as="sourcePoint" />
+            <mxPoint x="287.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-10" value="Se libera surtidor 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-11" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-9" target="rXtuRV8UVFUfXsze2wkC-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277.5" y="440" as="sourcePoint" />
+            <mxPoint x="357.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-13" value="Auto cargando combustible en surtidor 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="325" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-7" target="rXtuRV8UVFUfXsze2wkC-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307.5" y="420" as="sourcePoint" />
+            <mxPoint x="357.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-16" value="Termina la carga surtidor 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390.75" y="260" width="38.5" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="269.25" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-20" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-14" target="rXtuRV8UVFUfXsze2wkC-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="400" as="sourcePoint" />
+            <mxPoint x="407.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-21" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-18" target="rXtuRV8UVFUfXsze2wkC-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="400" as="sourcePoint" />
+            <mxPoint x="407.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-22" value="Surtidor 1 libre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="230" width="77.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-14" target="rXtuRV8UVFUfXsze2wkC-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="370" as="sourcePoint" />
+            <mxPoint x="607.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="735" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-26" value="Esperando para pagar en sector de pago" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-25" target="rXtuRV8UVFUfXsze2wkC-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="570" as="sourcePoint" />
+            <mxPoint x="725" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="885" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-29" value="Se libera un cobrador" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="852.5" y="560" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-30" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-28" target="rXtuRV8UVFUfXsze2wkC-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="550" as="sourcePoint" />
+            <mxPoint x="725" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="975" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-32" value="Cobrando pago" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="975" y="560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-33" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-31" target="rXtuRV8UVFUfXsze2wkC-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="540" as="sourcePoint" />
+            <mxPoint x="725" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-35" value="Finaliza el cobro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1102.5" y="562.5" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-34" target="rXtuRV8UVFUfXsze2wkC-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835" y="530" as="sourcePoint" />
+            <mxPoint x="1195" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1366" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-41" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-37" target="rXtuRV8UVFUfXsze2wkC-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="530" as="sourcePoint" />
+            <mxPoint x="835" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-42" value="Auto retirando de la estación" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-43" value="Se retiro un auto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="560" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-46" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-44" target="rXtuRV8UVFUfXsze2wkC-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="470" as="sourcePoint" />
+            <mxPoint x="447.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-47" value="Llega un auto a la fila 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-48" value="Auto esperando en la fila 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="565" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-50" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-45" target="rXtuRV8UVFUfXsze2wkC-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="620" as="sourcePoint" />
+            <mxPoint x="287.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-52" value="Se libera surtidor 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-53" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-51" target="rXtuRV8UVFUfXsze2wkC-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277.5" y="670" as="sourcePoint" />
+            <mxPoint x="357.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-54" value="Auto cargando combustible en surtidor 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="555" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-56" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-49" target="rXtuRV8UVFUfXsze2wkC-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307.5" y="650" as="sourcePoint" />
+            <mxPoint x="357.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-57" value="Termina la carga surtidor 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-58" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390.75" y="490" width="38.5" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-59" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="499.25" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-60" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-55" target="rXtuRV8UVFUfXsze2wkC-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="630" as="sourcePoint" />
+            <mxPoint x="407.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-61" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-58" target="rXtuRV8UVFUfXsze2wkC-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="630" as="sourcePoint" />
+            <mxPoint x="407.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-62" value="Surtidor 2 libre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="460" width="77.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-63" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-55" target="rXtuRV8UVFUfXsze2wkC-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="400" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="840" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-65" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-66" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-64" target="rXtuRV8UVFUfXsze2wkC-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="710" as="sourcePoint" />
+            <mxPoint x="447.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-67" value="Llega un auto a la fila 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="800" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-68" value="Auto esperando en la fila 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="805" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-69" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-70" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-65" target="rXtuRV8UVFUfXsze2wkC-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="860" as="sourcePoint" />
+            <mxPoint x="287.5" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="840" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-72" value="Se libera surtidor 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-73" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-71" target="rXtuRV8UVFUfXsze2wkC-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277.5" y="910" as="sourcePoint" />
+            <mxPoint x="357.5" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-74" value="Auto cargando combustible en surtidor 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="795" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="840" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-76" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-69" target="rXtuRV8UVFUfXsze2wkC-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307.5" y="890" as="sourcePoint" />
+            <mxPoint x="357.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-77" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390.75" y="730" width="38.5" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-78" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="739.25" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-79" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-75" target="rXtuRV8UVFUfXsze2wkC-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="870" as="sourcePoint" />
+            <mxPoint x="407.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-80" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-77" target="rXtuRV8UVFUfXsze2wkC-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="357.5" y="870" as="sourcePoint" />
+            <mxPoint x="407.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-81" value="Surtidor 3 libre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="700" width="77.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-82" value="Termina la carga surtidor 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="476.25" y="790" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-83" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-75" target="rXtuRV8UVFUfXsze2wkC-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="750" as="sourcePoint" />
+            <mxPoint x="350" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-84" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="975" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-85" value="Cobrador libre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="975" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-86" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-87" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-88" value="" style="endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="rXtuRV8UVFUfXsze2wkC-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="610" as="sourcePoint" />
+            <mxPoint x="940" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXtuRV8UVFUfXsze2wkC-89" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rXtuRV8UVFUfXsze2wkC-84" target="rXtuRV8UVFUfXsze2wkC-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="520" as="sourcePoint" />
+            <mxPoint x="940" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
